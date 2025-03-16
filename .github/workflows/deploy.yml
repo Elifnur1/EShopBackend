@@ -13,6 +13,7 @@ jobs:
            #Repoyu klonla
           -name: Checkout code
            uses: actions/checkout@v3 
+           
            #Klonladığın projeyi ubuntu sanal cihazında derle.
           -name: Setup .Net Core
            uses: actions/setup-dotnet@v4
