@@ -30,7 +30,7 @@ jobs:
         with: 
           server: 89.252.183.170
           port: 21
-          username: elifi
+          username: enescana_elif
           password: ${{secrets.FTP_PASSWORD}}
           local-dir: ./publish/
           server-dir: /eshopapielif.enescanaydemir.com/
